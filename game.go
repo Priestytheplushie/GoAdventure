@@ -107,4 +107,11 @@ func aftermath() {
 		fmt.Println("a loser. As you flee you spot a cliff, and it seems like the end of the line. As you look aroundc")
 		fmt.Println("you find nothing left to do. So you just wait... and wait... and wait... but nobody came, and nothing")
 		fmt.Println("happened. You were never seen again... GAME OVER.")
+	} else if (choice == 2) {
+		fmt.Println("You duck behind the nearby rock, and wait for the creature to pass, but it never does. It seems")
+		fmt.Println("like it's waiting for you to make the first move.")
+	} else if (choice == 3) {
+		fmt.Println("You approach the creatures, and they seem to be friendly. They offer you some food and water, and")
+		fmt.Println("you accept. You feel a sense of relief, and you feel fufilled. YOU WIN!")
+	}
 }
